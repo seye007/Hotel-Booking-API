@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Hotel_Booking_Core</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hotel-Booking-Data\Hotel-Booking-Data.csproj" />
+    <ProjectReference Include="..\Hotel-Booking-DTOS\Hotel-Booking-DTOS.csproj" />
+    <ProjectReference Include="..\Hotel-Booking-Models\Hotel-Booking-Models.csproj" />
+    <ProjectReference Include="..\Hotel-Booking-Utilities\Hotel-Booking-Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
